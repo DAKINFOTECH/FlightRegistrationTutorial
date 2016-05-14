@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="23567" started-at="2016-05-14T05:15:44Z" finished-at="2016-05-14T05:16:08Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="23567" started-at="2016-05-14T05:15:44Z" finished-at="2016-05-14T05:16:08Z">
+      <class name="com.dakinfotech.PWCMPack.Sprint108">
+        <test-method status="PASS" signature="Homepage()[pri:0, instance:com.dakinfotech.PWCMPack.Sprint108@5d76b067]" name="Homepage" duration-ms="10483" started-at="2016-05-14T10:45:44Z" finished-at="2016-05-14T10:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Homepage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.dakinfotech.PWCMPack.Sprint108@5d76b067]" name="tearDown" is-config="true" duration-ms="47" started-at="2016-05-14T10:45:55Z" finished-at="2016-05-14T10:45:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Homepage status=SUCCESS method=Sprint108.Homepage()[pri:0, instance:com.dakinfotech.PWCMPack.Sprint108@5d76b067] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Register(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dakinfotech.PWCMPack.Sprint108@5d76b067]" name="Register" duration-ms="10069" started-at="2016-05-14T10:45:55Z" data-provider="Regiss" finished-at="2016-05-14T10:46:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Arun]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9884570793]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[arund87@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Redhills]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Villivakkam]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Tamilnadu]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[600040]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[arund87@gmail.com]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[pass123]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[pass123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.dakinfotech.PWCMPack.Sprint108@5d76b067]" name="tearDown" is-config="true" duration-ms="45" started-at="2016-05-14T10:46:05Z" finished-at="2016-05-14T10:46:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Register status=SUCCESS method=Sprint108.Register(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dakinfotech.PWCMPack.Sprint108@5d76b067] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="openreport()[pri:0, instance:com.dakinfotech.PWCMPack.Sprint108@5d76b067]" name="openreport" is-config="true" duration-ms="2674" started-at="2016-05-14T10:46:05Z" finished-at="2016-05-14T10:46:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openreport -->
+      </class> <!-- com.dakinfotech.PWCMPack.Sprint108 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
