@@ -21,11 +21,12 @@ public class Sprint108 {
 	String injectpath="M:\\Study\\Selenium\\SeleniumScripts\\workspace1\\com.dakinfotech.PrototypeForPWCM\\src\\test\\resources\\Injectfile.xls";
 	String Advreportpath="M:\\Study\\Selenium\\SeleniumScripts\\workspace1\\com.dakinfotech.PrototypeForPWCM\\Reporting\\Advreportpath.html";
 	String Snapshotpath="M:\\Study\\Selenium\\SeleniumScripts\\workspace1\\com.dakinfotech.PrototypeForPWCM\\Screenshots\\";
-	ExtentReports extent = new ExtentReports(Advreportpath, true);
+	ExtentReports extent;
 	ExtentTest test;
 	
 	@Test(priority=0)
 	public void Homepage(){
+		extent = new ExtentReports(Advreportpath, true);
 		test = extent.startTest("Homepage Verification-Sprint108");
 		test.assignAuthor("Test Owner: Arun");
 		test.assignCategory("ID:usrd12345","Regression Test");
@@ -113,7 +114,7 @@ public class Sprint108 {
 @AfterClass
     public void openreport()
     {
-	driver.get(Advreportpath);
+	driver.close();
 	}
 
 //It will take failure screenshots
