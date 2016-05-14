@@ -10,12 +10,6 @@
           <include name="openreport"/>
         </methods>
       </class> <!-- com.dakinfotech.PWCMPack.Sprint108 -->
-      <class name="com.dakinfotech.PWCMPack.Sprint110">
-        <methods>
-          <include name="RegisterUserTwo" invocation-numbers="0"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.dakinfotech.PWCMPack.Sprint110 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

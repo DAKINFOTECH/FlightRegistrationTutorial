@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.dakinfotech.Prototype.Sprint108">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Register1" invocation-numbers="0"/>
+          <include name="openreport"/>
+        </methods>
+      </class> <!-- com.dakinfotech.Prototype.Sprint108 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

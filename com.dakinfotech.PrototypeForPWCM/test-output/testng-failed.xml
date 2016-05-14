@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
     <classes>
-      <class name="com.dakinfotech.PWCMPack.Sprint110">
+      <class name="com.dakinfotech.PWCMPack.Sprint108">
         <methods>
-          <include name="RegisterUserTwo" invocation-numbers="0"/>
+          <include name="Register" invocation-numbers="0"/>
           <include name="tearDown"/>
+          <include name="openreport"/>
         </methods>
-      </class> <!-- com.dakinfotech.PWCMPack.Sprint110 -->
+      </class> <!-- com.dakinfotech.PWCMPack.Sprint108 -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

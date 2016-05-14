@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="23567" started-at="2016-05-14T05:15:44Z" finished-at="2016-05-14T05:16:08Z">
+  <suite name="Suite" duration-ms="23724" started-at="2016-05-14T19:01:24Z" finished-at="2016-05-14T19:01:48Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="23567" started-at="2016-05-14T05:15:44Z" finished-at="2016-05-14T05:16:08Z">
+    <test name="Test" duration-ms="23724" started-at="2016-05-14T19:01:24Z" finished-at="2016-05-14T19:01:48Z">
       <class name="com.dakinfotech.PWCMPack.Sprint108">
-        <test-method status="PASS" signature="Homepage()[pri:0, instance:com.dakinfotech.PWCMPack.Sprint108@5d76b067]" name="Homepage" duration-ms="10483" started-at="2016-05-14T10:45:44Z" finished-at="2016-05-14T10:45:55Z">
+        <test-method status="PASS" signature="Homepage()[pri:0, instance:com.dakinfotech.PWCMPack.Sprint108@51081592]" name="Homepage" duration-ms="10738" started-at="2016-05-15T00:31:24Z" finished-at="2016-05-15T00:31:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Homepage -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.dakinfotech.PWCMPack.Sprint108@5d76b067]" name="tearDown" is-config="true" duration-ms="47" started-at="2016-05-14T10:45:55Z" finished-at="2016-05-14T10:45:55Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.dakinfotech.PWCMPack.Sprint108@51081592]" name="tearDown" is-config="true" duration-ms="86" started-at="2016-05-15T00:31:35Z" finished-at="2016-05-15T00:31:35Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Homepage status=SUCCESS method=Sprint108.Homepage()[pri:0, instance:com.dakinfotech.PWCMPack.Sprint108@5d76b067] output={null}]]]>
+                <![CDATA[[TestResult name=Homepage status=SUCCESS method=Sprint108.Homepage()[pri:0, instance:com.dakinfotech.PWCMPack.Sprint108@51081592] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="Register(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dakinfotech.PWCMPack.Sprint108@5d76b067]" name="Register" duration-ms="10069" started-at="2016-05-14T10:45:55Z" data-provider="Regiss" finished-at="2016-05-14T10:46:05Z">
+        <test-method status="FAIL" signature="Register(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dakinfotech.PWCMPack.Sprint108@51081592]" name="Register" duration-ms="12275" started-at="2016-05-15T00:31:35Z" data-provider="Regiss" finished-at="2016-05-15T00:31:48Z">
           <params>
             <param index="0">
               <value>
@@ -90,21 +90,89 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"link text","selector":"SIGN-OFF"}
+Command duration or timeout: 5.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Mukil', ip: '192.168.1.6', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d86a33d0-c2dd-4b81-a7e5-9191dc5acf47
+*** Element info: {Using=link text, value=SIGN-OFF}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"link text","selector":"SIGN-OFF"}
+Command duration or timeout: 5.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Mukil', ip: '192.168.1.6', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d86a33d0-c2dd-4b81-a7e5-9191dc5acf47
+*** Element info: {Using=link text, value=SIGN-OFF}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at com.dakinfotech.PWCMPack.Sprint108.Register(Sprint108.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"link text","selector":"SIGN-OFF"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Mukil', ip: '192.168.1.6', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_73'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/arunkavi/AppData/Local/Temp/anonymous2945788563270997147webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/arunkavi/AppData/Local/Temp/anonymous2945788563270997147webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Register -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.dakinfotech.PWCMPack.Sprint108@5d76b067]" name="tearDown" is-config="true" duration-ms="45" started-at="2016-05-14T10:46:05Z" finished-at="2016-05-14T10:46:05Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.dakinfotech.PWCMPack.Sprint108@51081592]" name="tearDown" is-config="true" duration-ms="187" started-at="2016-05-15T00:31:48Z" finished-at="2016-05-15T00:31:48Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Register status=SUCCESS method=Sprint108.Register(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dakinfotech.PWCMPack.Sprint108@5d76b067] output={null}]]]>
+                <![CDATA[[TestResult name=Register status=FAILURE method=Sprint108.Register(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dakinfotech.PWCMPack.Sprint108@51081592] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="openreport()[pri:0, instance:com.dakinfotech.PWCMPack.Sprint108@5d76b067]" name="openreport" is-config="true" duration-ms="2674" started-at="2016-05-14T10:46:05Z" finished-at="2016-05-14T10:46:08Z">
+        <test-method status="PASS" signature="openreport()[pri:0, instance:com.dakinfotech.PWCMPack.Sprint108@51081592]" name="openreport" is-config="true" duration-ms="16" started-at="2016-05-15T00:31:48Z" finished-at="2016-05-15T00:31:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openreport -->
