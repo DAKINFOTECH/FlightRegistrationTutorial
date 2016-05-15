@@ -1,0 +1,87 @@
+package com.dakinfotech.Prototype;
+
+Import
+
+public class Sprint110 {
+############################################################################################################
+	ExtentReports extent;
+	ExtentTest test;
+	WebDriver driver;
+	pwcmlibrary config=new pwcmlibrary();
+	String reportpath=".\\Reporting\\Advreportpath.html";
+	String injectpath=".\\src\\main\\resources\\Injectfile.xls";
+	String Attachpath="M:\\Study\\Selenium\\SeleniumScripts\\workspace1\\com.dakinfotech.Prototype";
+############################################################################################################
+
+/*    TESTTHREE    */
+@Test(priority=2,dataProvider="Regiss")		
+public void test4(Passdata=> Example=>String name1,String name2)throws InterruptedException
+{
+############################################################################################################
+	extent=new ExtentReports(reportpath,false);
+	test=extent.startTest("Registration For Second User");
+	test.assignAuthor("Author: Arunkumar");
+	test.assignCategory("Sprint110");
+############################################################################################################	
+	
+	driver=new FirefoxDriver();
+	driver.manage().window().maximize();
+	driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+############################################################################################################
+	test.log(LogStatus.INFO, "Browser Ready");
+############################################################################################################
+	driver.get("http://newtours.demoaut.com/");
+	driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+############################################################################################################
+	test.log(LogStatus.INFO, "URL Opened");
+############################################################################################################
+	*********************
+	*********************
+	*********************
+############################################################################################################
+	test.log(LogStatus.PASS, "Registration Second User Testcase Passed");
+	extent.endTest(test);
+	extent.flush();
+############################################################################################################
+}
+//Data provider for Registration.
+	@DataProvider(name="Regiss")
+	  public Object[][] passData(){
+	  config.Excelpath(injectpath,2);
+	  int rows=config.Excelcount();
+	  int roww=rows-1;
+	  Object[][] data=new Object[roww][13];
+	  for(int i=1;i<rows;i++)
+	  {
+		  for(int j=0;j<13;j++){
+			int k=i-1;  
+	 	    data[k][j]=config.Exceldata(i, j);
+	   	  }
+	  }
+  return data;
+	  }
+	
+//It will take failure screenshots
+    @AfterMethod
+		public void tearDown(ITestResult result){
+		if(ITestResult.FAILURE==result.getStatus())
+		{
+		config.captureScreenshot(driver,result.getName());
+	############################################################################################################
+		String image=test.addScreenCapture(Attachpath+"\\Screenshots\\"+result.getName()+".jpg");
+		test.log(LogStatus.FAIL, result.getName(), image);
+	############################################################################################################
+		}
+		extent.endTest(test);
+		extent.flush();
+		}
+    
+    @AfterClass
+    public void closebrowser()
+    {
+    driver.close();	
+    }
+
+}
+		
+

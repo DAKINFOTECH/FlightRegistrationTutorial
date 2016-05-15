@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [PWCMSUITE]">
-  <test name="PWCMTEST(failed)">
+<suite name="Failed suite [PWCM]">
+  <test name="Test(failed)">
     <classes>
       <class name="com.dakinfotech.Prototype.Sprint108">
         <methods>
@@ -17,5 +17,5 @@
         </methods>
       </class> <!-- com.dakinfotech.Prototype.Sprint110 -->
     </classes>
-  </test> <!-- PWCMTEST(failed) -->
-</suite> <!-- Failed suite [PWCMSUITE] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [PWCM] -->
