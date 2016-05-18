@@ -2,42 +2,42 @@
 <testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="SuitePWCM" duration-ms="109860" started-at="2016-05-18T12:00:09Z" finished-at="2016-05-18T12:01:59Z">
+  <suite name="SuitePWCM" duration-ms="73948" started-at="2016-05-18T12:35:32Z" finished-at="2016-05-18T12:36:45Z">
     <groups>
     </groups>
-    <test name="TestPWCM" duration-ms="109860" started-at="2016-05-18T12:00:09Z" finished-at="2016-05-18T12:01:59Z">
+    <test name="TestPWCM" duration-ms="73948" started-at="2016-05-18T12:35:32Z" finished-at="2016-05-18T12:36:45Z">
       <class name="com.dakinfotecz.pwcm.Sprint108">
-        <test-method status="PASS" signature="test1()[pri:0, instance:com.dakinfotecz.pwcm.Sprint108@1e7169a]" name="test1" duration-ms="16401" started-at="2016-05-18T17:30:09Z" finished-at="2016-05-18T17:30:26Z">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.dakinfotecz.pwcm.Sprint108@16b7fcb]" name="test1" duration-ms="15065" started-at="2016-05-18T18:05:32Z" finished-at="2016-05-18T18:05:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.dakinfotecz.pwcm.Sprint108@1e7169a]" name="tearDown" is-config="true" duration-ms="38" started-at="2016-05-18T17:30:26Z" finished-at="2016-05-18T17:30:26Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.dakinfotecz.pwcm.Sprint108@16b7fcb]" name="tearDown" is-config="true" duration-ms="94" started-at="2016-05-18T18:05:47Z" finished-at="2016-05-18T18:05:47Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test1 status=SUCCESS method=Sprint108.test1()[pri:0, instance:com.dakinfotecz.pwcm.Sprint108@1e7169a] output={null}]]]>
+                <![CDATA[[TestResult name=test1 status=SUCCESS method=Sprint108.test1()[pri:0, instance:com.dakinfotecz.pwcm.Sprint108@16b7fcb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:com.dakinfotecz.pwcm.Sprint108@1e7169a]" name="test2" duration-ms="138" started-at="2016-05-18T17:30:26Z" finished-at="2016-05-18T17:30:26Z">
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.dakinfotecz.pwcm.Sprint108@16b7fcb]" name="test2" duration-ms="175" started-at="2016-05-18T18:05:47Z" finished-at="2016-05-18T18:05:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.dakinfotecz.pwcm.Sprint108@1e7169a]" name="tearDown" is-config="true" duration-ms="37" started-at="2016-05-18T17:30:26Z" finished-at="2016-05-18T17:30:26Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.dakinfotecz.pwcm.Sprint108@16b7fcb]" name="tearDown" is-config="true" duration-ms="30" started-at="2016-05-18T18:05:47Z" finished-at="2016-05-18T18:05:47Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test2 status=SUCCESS method=Sprint108.test2()[pri:0, instance:com.dakinfotecz.pwcm.Sprint108@1e7169a] output={null}]]]>
+                <![CDATA[[TestResult name=test2 status=SUCCESS method=Sprint108.test2()[pri:0, instance:com.dakinfotecz.pwcm.Sprint108@16b7fcb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="test3(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dakinfotecz.pwcm.Sprint108@1e7169a]" name="test3" duration-ms="16951" started-at="2016-05-18T17:30:26Z" data-provider="Regiss" finished-at="2016-05-18T17:30:43Z">
+        <test-method status="PASS" signature="test3(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dakinfotecz.pwcm.Sprint108@16b7fcb]" name="test3" duration-ms="14860" started-at="2016-05-18T18:05:47Z" data-provider="Regiss" finished-at="2016-05-18T18:06:02Z">
           <params>
             <param index="0">
               <value>
@@ -108,30 +108,30 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.dakinfotecz.pwcm.Sprint108@1e7169a]" name="tearDown" is-config="true" duration-ms="31" started-at="2016-05-18T17:30:43Z" finished-at="2016-05-18T17:30:43Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.dakinfotecz.pwcm.Sprint108@16b7fcb]" name="tearDown" is-config="true" duration-ms="15" started-at="2016-05-18T18:06:02Z" finished-at="2016-05-18T18:06:02Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test3 status=SUCCESS method=Sprint108.test3(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dakinfotecz.pwcm.Sprint108@1e7169a] output={null}]]]>
+                <![CDATA[[TestResult name=test3 status=SUCCESS method=Sprint108.test3(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dakinfotecz.pwcm.Sprint108@16b7fcb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.dakinfotecz.pwcm.Sprint108@1e7169a]" name="closebrowser" is-config="true" duration-ms="0" started-at="2016-05-18T17:30:43Z" finished-at="2016-05-18T17:30:43Z">
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.dakinfotecz.pwcm.Sprint108@16b7fcb]" name="closebrowser" is-config="true" duration-ms="16" started-at="2016-05-18T18:06:02Z" finished-at="2016-05-18T18:06:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
       </class> <!-- com.dakinfotecz.pwcm.Sprint108 -->
       <class name="com.dakinfotecz.pwcm.Openreports">
-        <test-method status="PASS" signature="Advreport()[pri:0, instance:com.dakinfotecz.pwcm.Openreports@10b9ed]" name="Advreport" duration-ms="29617" started-at="2016-05-18T17:31:30Z" finished-at="2016-05-18T17:31:59Z">
+        <test-method status="PASS" signature="Advreport()[pri:0, instance:com.dakinfotecz.pwcm.Openreports@334ba0]" name="Advreport" duration-ms="19326" started-at="2016-05-18T18:06:26Z" finished-at="2016-05-18T18:06:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Advreport -->
       </class> <!-- com.dakinfotecz.pwcm.Openreports -->
       <class name="com.dakinfotecz.pwcm.Sprint110">
-        <test-method status="PASS" signature="test4(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dakinfotecz.pwcm.Sprint110@15e6463]" name="test4" duration-ms="46405" started-at="2016-05-18T17:30:43Z" data-provider="Regiss" finished-at="2016-05-18T17:31:30Z">
+        <test-method status="PASS" signature="test4(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dakinfotecz.pwcm.Sprint110@1eb536]" name="test4" duration-ms="24160" started-at="2016-05-18T18:06:02Z" data-provider="Regiss" finished-at="2016-05-18T18:06:26Z">
           <params>
             <param index="0">
               <value>
@@ -202,18 +202,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test4 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.dakinfotecz.pwcm.Sprint110@15e6463]" name="tearDown" is-config="true" duration-ms="16" started-at="2016-05-18T17:31:30Z" finished-at="2016-05-18T17:31:30Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.dakinfotecz.pwcm.Sprint110@1eb536]" name="tearDown" is-config="true" duration-ms="31" started-at="2016-05-18T18:06:26Z" finished-at="2016-05-18T18:06:26Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test4 status=SUCCESS method=Sprint110.test4(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dakinfotecz.pwcm.Sprint110@15e6463] output={null}]]]>
+                <![CDATA[[TestResult name=test4 status=SUCCESS method=Sprint110.test4(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dakinfotecz.pwcm.Sprint110@1eb536] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.dakinfotecz.pwcm.Sprint110@15e6463]" name="closebrowser" is-config="true" duration-ms="16" started-at="2016-05-18T17:31:30Z" finished-at="2016-05-18T17:31:30Z">
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.dakinfotecz.pwcm.Sprint110@1eb536]" name="closebrowser" is-config="true" duration-ms="0" started-at="2016-05-18T18:06:26Z" finished-at="2016-05-18T18:06:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->

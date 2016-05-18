@@ -23,7 +23,7 @@ public class Sprint108 {
 	pwcmlibrary config=new pwcmlibrary();
 	String reportpath=".\\Reporting\\Advreportpath.html";
 	String injectpath=".\\src\\main\\resources\\Injectfile.xls";
-	String Attachpath="C:\\Users\\348027\\workspaceluna\\com.dakinfotecz.pwcm";
+	String Attachpath="C:\\Users\\348027\\git\\PrototypeForPWCM\\com.dakinfotecz.pwcm";
 	
 	/*    TESTONE    */	
 	@Test(priority=0)		
