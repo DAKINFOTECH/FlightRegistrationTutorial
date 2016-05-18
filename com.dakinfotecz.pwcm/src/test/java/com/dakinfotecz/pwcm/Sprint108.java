@@ -98,7 +98,7 @@ public class Sprint108 {
 		driver.findElement(By.name("password")).sendKeys(passwd1);
 		driver.findElement(By.name("confirmPassword")).sendKeys(passwd2);
 		test.log(LogStatus.INFO, "Registeration Form Completed");
-		driver.findElement(By.name("register")).click();
+		driver.findElement(By.name("registerr")).click();
 		Thread.sleep(2000);
 		test.log(LogStatus.INFO, "Registeration Done");
 		driver.findElement(By.linkText("SIGN-OFF")).click();
