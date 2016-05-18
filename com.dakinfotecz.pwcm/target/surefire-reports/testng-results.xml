@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SuitePWCM" duration-ms="69952" started-at="2016-05-18T12:07:39Z" finished-at="2016-05-18T12:08:49Z">
+    <groups>
+    </groups>
+    <test name="TestPWCM" duration-ms="69952" started-at="2016-05-18T12:07:39Z" finished-at="2016-05-18T12:08:49Z">
+      <class name="com.dakinfotecz.pwcm.Sprint108">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.dakinfotecz.pwcm.Sprint108@13ca972]" name="test1" duration-ms="12470" started-at="2016-05-18T17:37:39Z" finished-at="2016-05-18T17:37:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.dakinfotecz.pwcm.Sprint108@13ca972]" name="tearDown" is-config="true" duration-ms="188" started-at="2016-05-18T17:37:51Z" finished-at="2016-05-18T17:37:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test1 status=SUCCESS method=Sprint108.test1()[pri:0, instance:com.dakinfotecz.pwcm.Sprint108@13ca972] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.dakinfotecz.pwcm.Sprint108@13ca972]" name="test2" duration-ms="154" started-at="2016-05-18T17:37:52Z" finished-at="2016-05-18T17:37:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.dakinfotecz.pwcm.Sprint108@13ca972]" name="tearDown" is-config="true" duration-ms="28" started-at="2016-05-18T17:37:52Z" finished-at="2016-05-18T17:37:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test2 status=SUCCESS method=Sprint108.test2()[pri:0, instance:com.dakinfotecz.pwcm.Sprint108@13ca972] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="test3(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dakinfotecz.pwcm.Sprint108@13ca972]" name="test3" duration-ms="13970" started-at="2016-05-18T17:37:52Z" data-provider="Regiss" finished-at="2016-05-18T17:38:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Arun]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9884570793]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[arund87@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Redhills]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Villivakkam]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Tamilnadu]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[600040]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[arund87@gmail.com]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[pass123]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[pass123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.dakinfotecz.pwcm.Sprint108@13ca972]" name="tearDown" is-config="true" duration-ms="29" started-at="2016-05-18T17:38:06Z" finished-at="2016-05-18T17:38:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test3 status=SUCCESS method=Sprint108.test3(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dakinfotecz.pwcm.Sprint108@13ca972] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.dakinfotecz.pwcm.Sprint108@13ca972]" name="closebrowser" is-config="true" duration-ms="36" started-at="2016-05-18T17:38:06Z" finished-at="2016-05-18T17:38:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.dakinfotecz.pwcm.Sprint108 -->
+      <class name="com.dakinfotecz.pwcm.Openreports">
+        <test-method status="PASS" signature="Advreport()[pri:0, instance:com.dakinfotecz.pwcm.Openreports@a2f9e6]" name="Advreport" duration-ms="20170" started-at="2016-05-18T17:38:29Z" finished-at="2016-05-18T17:38:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Advreport -->
+      </class> <!-- com.dakinfotecz.pwcm.Openreports -->
+      <class name="com.dakinfotecz.pwcm.Sprint110">
+        <test-method status="PASS" signature="test4(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dakinfotecz.pwcm.Sprint110@19b7aeb]" name="test4" duration-ms="22713" started-at="2016-05-18T17:38:06Z" data-provider="Regiss" finished-at="2016-05-18T17:38:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ilamukil]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Arunkumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9884970793]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ilamukil@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Redhills]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Villivakkam]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Tamilnadu]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[600040]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[ilamukil@gmail.com]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[pass1234]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[pass1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.dakinfotecz.pwcm.Sprint110@19b7aeb]" name="tearDown" is-config="true" duration-ms="7" started-at="2016-05-18T17:38:29Z" finished-at="2016-05-18T17:38:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test4 status=SUCCESS method=Sprint110.test4(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dakinfotecz.pwcm.Sprint110@19b7aeb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.dakinfotecz.pwcm.Sprint110@19b7aeb]" name="closebrowser" is-config="true" duration-ms="8" started-at="2016-05-18T17:38:29Z" finished-at="2016-05-18T17:38:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.dakinfotecz.pwcm.Sprint110 -->
+    </test> <!-- TestPWCM -->
+  </suite> <!-- SuitePWCM -->
+</testng-results>

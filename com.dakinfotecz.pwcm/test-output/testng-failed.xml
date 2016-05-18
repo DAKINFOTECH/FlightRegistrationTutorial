@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuitePWCM]">
+  <test name="TestPWCM(failed)">
+    <classes>
+      <class name="com.dakinfotecz.pwcm.Sprint108">
+        <methods>
+          <include name="tearDown"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- com.dakinfotecz.pwcm.Sprint108 -->
+      <class name="com.dakinfotecz.pwcm.Sprint110">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="test4" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.dakinfotecz.pwcm.Sprint110 -->
+    </classes>
+  </test> <!-- TestPWCM(failed) -->
+</suite> <!-- Failed suite [SuitePWCM] -->
