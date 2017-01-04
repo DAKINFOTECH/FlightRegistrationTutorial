@@ -1,6 +1,6 @@
 # *****Planning Framework*****
 
-Working on the prototype for PWCM.
+Working on the prototype.
 
 Eclipse Luma SR2
 TestNg   http://beust.com/eclipse
